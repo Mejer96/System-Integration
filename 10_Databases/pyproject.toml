@@ -1,0 +1,18 @@
+[project]
+name = "migration-service"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mejer96",email = "carlemilfalkmejer96@gmail.com"}
+]
+package-mode = false
+requires-python = ">=3.13"
+dependencies = [
+    "pymysql (>=1.1.2,<2.0.0)",
+    "pymongo (>=4.15.5,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

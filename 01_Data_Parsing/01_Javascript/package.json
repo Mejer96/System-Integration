@@ -1,0 +1,16 @@
+{
+  "name": "01_js",
+  "version": "1.0.0",
+  "main": "fileParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "yaml": "^2.8.2"
+  }
+}

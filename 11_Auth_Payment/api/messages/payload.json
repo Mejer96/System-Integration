@@ -1,0 +1,32 @@
+{
+    "checkout": {
+      "integrationType": "EmbeddedCheckout",
+      "url": "http://localhost:3000/checkout.html",
+      "termsUrl": "https://localhost:3000/terms.html"
+    },
+    "order": {
+      "items": [
+        {
+          "reference": "ref42",
+          "name": "Demo product",
+          "quantity": 2,
+          "unit": "pcs",
+          "unitPrice": 80000,
+          "grossTotalAmount": 160000,
+          "netTotalAmount": 160000
+        },
+          {
+          "reference": "discount",
+          "name": "Demo discount",
+          "quantity": 1,
+          "unit": "pcs",
+          "unitPrice": -20000,
+          "grossTotalAmount": -20000,
+          "netTotalAmount": -20000
+          }
+      ],
+      "amount": 140000,
+      "currency": "SEK",
+      "reference": "Demo Order"
+    }
+  }

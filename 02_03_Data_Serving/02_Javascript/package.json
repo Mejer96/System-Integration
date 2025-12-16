@@ -1,0 +1,18 @@
+{
+  "name": "02_javascript",
+  "version": "1.0.0",
+  "main": "endpoints.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "axios": "^1.13.2",
+    "express": "^5.2.1",
+    "yaml": "^2.8.2"
+  }
+}

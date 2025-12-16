@@ -1,0 +1,16 @@
+<movie>
+    <title>Inglourious Basterds</title>
+    <year>2009</year>
+    <director>Quentin Tarantino</director>
+    <genres>
+        <genre>War</genre>
+        <genre>Adventure</genre>
+        <genre>Drama</genre>
+    </genres>
+    <main_characters>
+        <character>Lt. Aldo Raine</character>
+        <character>Hans Landa</character>
+        <character>Shosanna Dreyfus</character>
+        <character>Donny Donowitz</character>
+    </main_characters>
+</movie>

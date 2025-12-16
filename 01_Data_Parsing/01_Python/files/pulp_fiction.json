@@ -1,0 +1,12 @@
+{
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "genres": ["Crime", "Drama"],
+    "main_characters": [
+        "Vincent Vega",
+        "Jules Winnfield",
+        "Mia Wallace",
+        "Butch Coolidge"
+    ]
+}

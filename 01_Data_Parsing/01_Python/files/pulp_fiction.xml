@@ -1,0 +1,15 @@
+<movie>
+    <title>Pulp Fiction</title>
+    <year>1994</year>
+    <director>Quentin Tarantino</director>
+    <genres>
+        <genre>Crime</genre>
+        <genre>Drama</genre>
+    </genres>
+    <main_characters>
+        <character>Vincent Vega</character>
+        <character>Jules Winnfield</character>
+        <character>Mia Wallace</character>
+        <character>Butch Coolidge</character>
+    </main_characters>
+</movie>
