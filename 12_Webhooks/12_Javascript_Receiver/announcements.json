@@ -1,4 +1,7 @@
 [
-  "New movie announcement! El Jefe Returns is in production and will be directed by Quentin Tarantino",
-  "New movie announcement! El Jefe Returns is in production and will be directed by Quentin Tarantino"
+  {
+    "event": "movie_announcement",
+    "message": "Killerclown is in production and will be directed by Quentin Tarantino",
+    "timestamp": "2025-12-16T10:25:11.036189+00:00"
+  }
 ]

@@ -12,3 +12,4 @@ const validateAccessToken = auth({
 module.exports = {
   validateAccessToken,
 };
+

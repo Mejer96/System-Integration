@@ -20,7 +20,7 @@ function appendToJsonFile(filePath, message) {
 
 
 app.post("/callback/announcement", (req, res) => {
-    const message = req.body.message;
+    const message = req.body;
     if (!message) return res.status(400).json({ error: "Missing message" });
 
     const filePath = path.join(basePath, "announcements.json");
