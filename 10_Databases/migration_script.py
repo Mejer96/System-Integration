@@ -2,6 +2,12 @@ import pymysql
 import pymongo
 from pymongo import MongoClient
 
+# mysqldump -u user -p cinema_booking > cinemabooking_backup.sql
+
+# CREATE DATABASE cinema_booking_backup;
+
+# mysql -u user -p cinema_booking_backup < cinemabooking_backup.sql
+
 # MySQL connection setup
 mysql_conn = pymysql.connect(
     host='localhost',

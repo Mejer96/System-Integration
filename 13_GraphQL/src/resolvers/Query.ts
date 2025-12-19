@@ -1,5 +1,16 @@
 import db from "../database/data.js";
 
+// query ($id: ID!) {
+//     book(id: $id) {
+//       title
+//       releaseYear
+//       author {
+//         name
+//       }
+//     }
+//   }
+  
+
 function books(parent: any, args: any, context: any, info: any) {
     return db.books;
 }
