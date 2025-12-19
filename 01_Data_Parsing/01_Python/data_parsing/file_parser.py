@@ -4,7 +4,7 @@ import yaml
 import csv
 
 class FileParser:
-    def parse_json(self, file_path: str) -> str:
+    def parse_json(self, file_path: str):
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data

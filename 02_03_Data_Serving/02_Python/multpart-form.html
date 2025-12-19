@@ -1,0 +1,11 @@
+<h2>File Form FastAPI</h2>
+<form action="http://localhost:8000/fileform" method="POST" enctype="multipart/form-data">
+    <label for="file">File</label>
+    <!-- You can support uploading multiple files with the multiple attribute -->
+    <input type="file" name="file" accept="image/*" >
+
+    <label>Description</label>
+    <input type="text" name="description" placeholder="description...">
+
+    <input type="submit" value="Send File">
+</form>
